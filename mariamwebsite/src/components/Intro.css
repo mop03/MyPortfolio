@@ -13,28 +13,6 @@
   
 }
 
-@keyframes colorinres {
-
-    0% {
-        background: rgb(112, 116, 217);
-    }
-
-    100% {
-        background: rgb(177, 179, 255);
-    }
-
-}
-@keyframes colorinproj {
-
-    0% {
-        background: rgb(112, 116, 217);
-    }
-
-    100% {
-        background: rgb(177, 179, 255);
-    }
-
-}
 .Intro {
     font-size: 40px;
     display:flex;
@@ -82,7 +60,7 @@ img {
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    background: #3fc2d69b;
+    background: rgba(142, 255, 236, 0.668);
     /* linear-gradient(to right, #c6cbf0,  rgb(185, 219, 163)); */
     animation-name: minibubble;
     animation-duration: 5s;
@@ -110,7 +88,7 @@ img {
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    background: #3fc2d69b;
+    background: rgba(142, 255, 236, 0.668);
     /* linear-gradient(to right, #c6cbf0,  rgb(185, 219, 163)); */
     animation-name: minibubble;
     animation-duration: 5s;
@@ -138,7 +116,7 @@ img {
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    background: #3fc2d69b;
+    background: rgba(142, 255, 236, 0.668);
     /* linear-gradient(to right, #c6cbf0,  rgb(185, 219, 163)); */
     animation-name: minibubble;
     animation-duration: 5s;
@@ -167,7 +145,7 @@ img {
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    background: #3fc2d69b;
+    background: rgba(142, 255, 236, 0.668);
     /* linear-gradient(to right, #c6cbf0,  rgb(185, 219, 163)); */
     animation-name: minibubble;
     animation-duration: 5s;
@@ -180,7 +158,4 @@ img {
     width: 190px;
     height: 190px;
     background-color: rgb(177, 179, 255);
-    /* animation-name: colorinexp;
-    animation-duration: 2s;
-    animation-iteration-count: infinite; */
 }
