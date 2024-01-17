@@ -10,7 +10,7 @@ function Typewriters() {
                         autoStart: true,
                         loop: true,
                         delay: 100,
-                        strings: ["Nice to meet you, I'm Mariam Masud!", "Click on a bubble to learn more!"]
+                        strings: ["Nice to meet you, I'm Mariam!", "Click on a bubble to learn more!"]
                     } }>
                 </Typewriter>
 

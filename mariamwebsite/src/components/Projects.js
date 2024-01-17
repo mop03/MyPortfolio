@@ -110,6 +110,19 @@ function Projects() {
 }
 
 const projects = [
+{
+    img:'images/GREG_home.png',
+    title: 'GREG',
+    skills: 'React.js, Node.js, Express.js, CSS, JavaScript, Beautiful Soup, Django',
+    bullets: [
+        "GREG  - Graphical Resource for Enrollment Guidance",
+        "Collaborated with 5 peers to create a class planning tool specific for UCLA's internal enrollment resource DARs (Degree Audit Report)",
+        "Co-developed front-end UI, UX allowing for easy user input for uploading, inputting preference filters, and download of an optimized class schedule",
+        "Manipulated scraped data to display a digestible histogram of grade distributions for a specific course"
+
+    ]
+    
+}, 
   {
     img: 'images/walkppl.png',
     title: 'WalkPeople',

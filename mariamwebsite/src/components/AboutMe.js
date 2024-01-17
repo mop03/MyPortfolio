@@ -33,7 +33,13 @@ export default function AboutMe() {
               textAlign: 'justify',
             }}
           >
-            Blah...
+            I am a graduating senior studying Computer Science at UCLA. I first found interest in the field of computer science 
+            back in middle school on Khan Academy and my interest grew further in high school when I joined the amazing community
+            of Girls Who Code. I've gained a lot of hands on software development experience within college clubs such as Society of Women Engineers (SWE)
+            and in past industry internships. I love the idea that I can positively impact the world around me by contributing my knowledge and skill within
+            computer science. I look forward to finding purposeful application of my skills in the next steps of my career.        
+            {/* Outside of my time coding, I like to stay active and workout: my current fitness goals are to do a pull up
+            and run a marathon.  */}
           </Typography>
 
           <Typography

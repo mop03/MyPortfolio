@@ -1,0 +1,14 @@
+@media (max-width: 500px) {
+    :root {
+        --width:90%;
+        --height:400px;
+       
+    }
+}
+
+@media (min-width: 601px) {
+    :root {
+      --width:90%;
+      --height:700px;
+    }
+}
