@@ -9,6 +9,7 @@ export default function NavBar() {
       ? [
           { to: '/', name: 'HOME' },
           { to: '/aboutme', name: 'ABOUT ME' },
+          { to: '/resume', name: 'RESUME' },
            { to: '/projects', name: 'PROJECTS' },
           { to: '/experience', name: 'EXPERIENCE' },
           { to: '/contactme', name: 'CONTACT' },
@@ -51,7 +52,7 @@ export default function NavBar() {
               }}
             />
             <NavLink
-              sx={navItem.to === currPage ? { color: "'#0d6885' !important" } : {}}
+              sx={navItem.to === currPage ? { color: "#0991bd !important" ,fontWeight: "bold" } : {}}
               href={navItem.to}
             >
               {navItem.name}

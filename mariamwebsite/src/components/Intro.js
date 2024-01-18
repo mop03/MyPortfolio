@@ -27,6 +27,7 @@ export default function Intro() {
               backgroundColor: '#FFC0CB', 
               padding: '10px', 
               borderRadius: '10px', 
+              pointerEvents: 'none',
               zIndex: 1 }}> hint: click on my face to learn more about me :D</p>}
           
             <p>
