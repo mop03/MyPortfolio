@@ -2,8 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import './Intro.css';
 import Typewriters from "./Typewriter";
-import { useState, useNavigate } from "react";
-import NavBar from "./NavBar";
+import { useState} from "react";
 
 export default function Intro() {
     const [isShown, setIsShown] = useState(false);
