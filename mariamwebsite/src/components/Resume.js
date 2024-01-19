@@ -7,7 +7,7 @@ export default function Resume() {
        <NavBar></NavBar>
         <iframe
         title="Resume"
-        src="documents/Mariam_Masud_Resume_2024_final.pdf"
+        src="documents/Mariam_Masud_Resume.pdf"
         style={{
           width: 'var(--width)',
           height: 'var(--height)',
