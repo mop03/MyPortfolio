@@ -1,10 +1,11 @@
+import { margin } from '@mui/system';
 import React from 'react'
 import Typewriter from 'typewriter-effect';
 
 function Typewriters() {
     return (
         <div className='container'>
-            <h3>
+            <h1>
                 <Typewriter
                     options = { {
                         autoStart: true,
@@ -14,7 +15,7 @@ function Typewriters() {
                     } }>
                 </Typewriter>
 
-            </h3>
+            </h1>
 
         </div>
     )

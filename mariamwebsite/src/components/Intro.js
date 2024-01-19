@@ -7,8 +7,9 @@ import { useState} from "react";
 export default function Intro() {
     const [isShown, setIsShown] = useState(false);
     return (
-      <div className="Intro">
-            <Typewriters></Typewriters>
+      <>
+      <Typewriters></Typewriters>
+      <div className="Intro">    
             <div className="circle_border">
             <Link to='/aboutme'>
             <img 
@@ -29,8 +30,8 @@ export default function Intro() {
               borderRadius: '10px', 
               pointerEvents: 'none',
               zIndex: 1 }}> hint: click on my face to learn more about me :D</p>}
-          
-            <p>
+          </div>
+          <p>
               <Link className="hover-bold"
                 to="/resume"
                 style={{ textDecoration: 'none', color: 'black' }}
@@ -63,6 +64,6 @@ export default function Intro() {
               </Link>
             </p>
            
-      </div>
+      </>
     );
   }
