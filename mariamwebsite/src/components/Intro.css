@@ -1,20 +1,20 @@
 @media (max-width: 500px) {
     :root {
-    --minibubble-size:100px;
-    --mainbubble-size:170px;
+    --minibubble-size:30vw;
+    --mainbubble-size:24vh;
     --mainbubble-border:5px;
-    --font-size:20px;
+    --font-size:5vw;
     --margin-main: 50%;
     --margin-left: 10%
     }
 }
 
-@media (min-width: 601px) {
+@media (min-width: 501px) {
     :root {
-        --minibubble-size: 190px;
-        --mainbubble-size: 330px;
+        --minibubble-size: 20vw;
+        --mainbubble-size: 27vw;
         --mainbubble-border: 10px;
-        --font-size: 35px;
+        --font-size: 2vw;
         --margin-main: 7%;
         --margin-left: 0;
     }
@@ -38,9 +38,14 @@
     font-size: var(--font-size);
 } */
 .Intro {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    position: absolute;
     font-size: var(--font-size);
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
+    height:94vh;
     align-items: center;
     justify-content:center;
     text-align: center;
@@ -53,9 +58,7 @@ img {
 
 
 .circle_border {
-    margin-top:var(--margin-main);
-    margin-left:var(--margin-left);
-    position:relative;
+    position:absolute;
     overflow: hidden;
     width: var(--mainbubble-size);
     height: var(--mainbubble-size);
@@ -68,7 +71,6 @@ img {
    
 }
 .circle_border:hover {
-    border: var(--mainbubble-border) solid #98fdfd;
     width: var(--mainbubble-size);
     height: var(--mainbubble-size);
 }
@@ -80,8 +82,8 @@ img {
     justify-content: center;
     text-align: center;
     font-size: var(--font-size);
-    top: 21%;
-    left: 23%;
+    top: 18vh;
+    left: 14vw;
     width: var(--minibubble-size);
     height: var(--minibubble-size);
     border-radius: 50%;
@@ -106,8 +108,8 @@ img {
     justify-content: center;
     text-align: center;
     font-size: var(--font-size);
-    top:21%;
-    left: 65%;
+    top:18vh;
+    left: 65vw;
     width: var(--minibubble-size);
     height: var(--minibubble-size);
     border-radius: 50%;
@@ -132,8 +134,8 @@ img {
     justify-content: center;
     text-align: center;
     font-size: var(--font-size);
-    top: 64%;
-    left: 65%;
+    top: 60vh;
+    left: 65vw;
     width: var(--minibubble-size);
     height: var(--minibubble-size);
     border-radius: 50%;
@@ -160,8 +162,8 @@ img {
     text-align: center;
     font-size: var(--font-size);
     width: 100%;
-    top: 64%;
-    left: 23%;
+    top: 60vh;
+    left: 14vw;
     width: var(--minibubble-size);
     height: var(--minibubble-size);
     border-radius: 50%;
