@@ -10,7 +10,7 @@ export default function AboutMe() {
         <Box textAlign={'center'}>
           <Box
             component='img'
-            src='images/2024headshot_square.jpg'
+            src='images/grad_headshot2024.png'
             alt='Headshot'
             className='my-picture'
             sx={{

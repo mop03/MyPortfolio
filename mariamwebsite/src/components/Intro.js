@@ -13,7 +13,7 @@ export default function Intro() {
             <div className="circle_border">
             <Link to='/aboutme'>
             <img 
-            src="images/2024headshot_square.jpg" 
+            src="images/grad_headshot2024.png" 
             alt="Headshot" 
             onMouseOver={() => setIsShown(true)}
             onMouseOut={() => setIsShown(false)}
